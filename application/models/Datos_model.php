@@ -13,6 +13,7 @@
         /* Inserción */
         public function registro($nombre, $telefono, $correo)
         {
+            /* CRUD cambiando insert */
             return $this->db->insert("datos", ["nombre" => $nombre, "telefono" => $telefono, "correo" => $correo]);
             
         }
