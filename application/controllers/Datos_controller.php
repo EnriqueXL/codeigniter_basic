@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+//test
 /* La primera letra en mayuscula */
 class Datos_controller extends CI_Controller {
 
